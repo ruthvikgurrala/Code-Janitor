@@ -1,0 +1,28 @@
+# --- System & Logs ---
+.DS_Store
+Thumbs.db
+*.log
+
+.env
+
+# --- Python (Backend) ---
+venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+
+# --- Node (Frontend) ---
+node_modules/
+dist/
+.vercel/
+coverage/
+
+# --- Project Specific ---
+# Ignore the test folders you mentioned
+5 day ai agent test folder/
+legacy_code/
+
+# Keep the folder structure but ignore files inside legacy_code (Optional)
+# legacy_code/*
+# !legacy_code/.gitkeep
