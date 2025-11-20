@@ -13,7 +13,7 @@ function App() {
   const [copySuccess, setCopySuccess] = useState(false)
 
   // Ensure this matches your Render/Local URL
-  const API_URL = "http://localhost:8000" 
+  const API_URL = "https://code-janitor-api.onrender.com" 
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0])
